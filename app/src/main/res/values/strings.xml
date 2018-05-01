@@ -2,5 +2,9 @@
     <string name="app_name">NYCTour</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_manhattan">Manhattan</string>
+    <string name="category_queens">Queens</string>
+    <string name="category_brooklyn">Brooklyn</string>
+    <string name="category_bronx">Bronx</string>
+    <string name="category_staten_island">Staten Island</string>
 </resources>

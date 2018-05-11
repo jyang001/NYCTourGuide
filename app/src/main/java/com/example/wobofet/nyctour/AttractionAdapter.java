@@ -42,6 +42,9 @@ public class AttractionAdapter extends FragmentPagerAdapter {
 
     @Nullable
     @Override
+    /**
+     * returns a title for the page
+     */
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
             return aContext.getString(R.string.category_brooklyn);
@@ -58,5 +61,4 @@ public class AttractionAdapter extends FragmentPagerAdapter {
         else
             return aContext.getString(R.string.category_staten_island);
     }
-
 }

@@ -45,13 +45,15 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         TextView placeName = (TextView) listItemView.findViewById(R.id.place_name);
         TextView address = (TextView) listItemView.findViewById(R.id.address);
-        TextView description = (TextView) listItemView.findViewById(R.id.address);
+        TextView description = (TextView) listItemView.findViewById(R.id.description);
+        TextView cost = (TextView) listItemView.findViewById(R.id.cost);
         ImageView resource = (ImageView) listItemView.findViewById(R.id.list_image);
 
         currentAttraction.setName(currentAttraction.getName());
         currentAttraction.setAddress(currentAttraction.getAddress());
         currentAttraction.setDescription(currentAttraction.getDescription());
         currentAttraction.setResourceID(currentAttraction.getResourceID());
+        currentAttraction.setCost(currentAttraction.getCost());
 
         return listItemView;
     }

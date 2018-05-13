@@ -1,64 +1,58 @@
 package com.example.wobofet.nyctour;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
-public class AttractionAdapter extends FragmentPagerAdapter {
+public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
-    private Context aContext;
+    private int colorResourceID;
 
-    public AttractionAdapter(Context context, FragmentManager fm) {
-        super(fm);
-        aContext = context;
+
+    public AttractionAdapter(Activity context, int getResourceID, ArrayList<Attraction> A) {
+        super(context, 0, A);
+        colorResourceID = getResourceID;
     }
 
-    @Override
-    public Fragment getItem(int position) {
-        if (position == 0) {
-            return new BrooklynFragment();
-        } else if (position == 1){
-            return new QueensFragment();
-        } else if (position == 2 ) {
-            return new ManhattanFragment();
-        }
-        else if (position == 3) {
-            return new BronxFragment();
-        }
-        else {
-            return new StatenIslandFragment();
-        }
-    }
-
-    @Override
-    public int getCount() {
-        return 5;
-    }
-
-    @Nullable
-    @Override
     /**
-     * returns a title for the page
+     * Recycle views
+     * @param pos position in adapter that we want
+     * @param convertView view to recycle
+     * @param parent parent view that view will be attached to
+     * @return populated View
      */
-    public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return aContext.getString(R.string.category_brooklyn);
+    public View getView(int pos, View convertView, ViewGroup parent) {
+        View listItemView = convertView;
+        if(listItemView == null) {
+            LayoutInflater LI = LayoutInflater.from(getContext());
+            listItemView = LI.inflate(R.layout.list_item, parent, false);
         }
-        else if (position == 1) {
-            return aContext.getString(R.string.category_queens);
-        }
-        else if (position == 2) {
-            return aContext.getString(R.string.category_manhattan);
-        }
-        else if (position == 3) {
-            return aContext.getString(R.string.category_bronx);
-        }
-        else
-            return aContext.getString(R.string.category_staten_island);
+
+        Attraction currentAttraction = getItem(pos);
+
+        TextView placeName = (TextView) listItemView.findViewById(R.id.place_name);
+        TextView address = (TextView) listItemView.findViewById(R.id.address);
+        TextView description = (TextView) listItemView.findViewById(R.id.address);
+        ImageView resource = (ImageView) listItemView.findViewById(R.id.list_image);
+
+        currentAttraction.setName(currentAttraction.getName());
+        currentAttraction.setAddress(currentAttraction.getAddress());
+        currentAttraction.setDescription(currentAttraction.getDescription());
+        currentAttraction.setResourceID(currentAttraction.getResourceID());
+
+        return listItemView;
     }
 }

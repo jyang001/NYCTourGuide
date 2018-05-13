@@ -3,21 +3,20 @@ package com.example.wobofet.nyctour;
 public class Attraction {
     private static final int NOIMAGE = -1;
 
-    private String address;
-    private String description;
+    private int address;
+    private int description;
     private int resourceID = NOIMAGE;
-    private String name;
-    private String cost;
+    private int name;
+    private int cost;
 
     /**
-     *
      * @param n Name of the Attraction
      * @param a Address Attraction is located at
      * @param d Small Description about Attraction
      * @param r Resource ID of image of Attraction
      * @param c Cost of entrance if any
      */
-    public Attraction(String n, String a, String d, int r, String c) {
+    public Attraction(int n, int a, int d, int r, int c) {
         name = n;
         address = a;
         description = d;
@@ -25,19 +24,31 @@ public class Attraction {
         cost = c;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getAddress() {
+        return address;
     }
 
-    public void setCost(String cost) {
-        this.cost = cost;
+    public int getDescription() {
+        return description;
     }
 
-    public void setAddress(String address) {
+    public int getResourceID() {
+        return resourceID;
+    }
+
+    public int getName() {
+        return name;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setAddress(int address) {
         this.address = address;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         this.description = description;
     }
 
@@ -45,10 +56,13 @@ public class Attraction {
         this.resourceID = resourceID;
     }
 
+    public void setName(int name) {
+        this.name = name;
+    }
 
-    public String getCost() { return cost; }
-    public int getResourceID() { return resourceID; }
-    public String getName() { return name; }
-    public String getDescription() { return description; }
-    public String getAddress() { return address; }
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
 }
+
+

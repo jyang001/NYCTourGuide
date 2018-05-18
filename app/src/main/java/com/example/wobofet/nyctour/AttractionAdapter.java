@@ -21,7 +21,6 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
     private int colorResourceID;
 
-
     public AttractionAdapter(Activity context, int getResourceID, ArrayList<Attraction> A) {
         super(context, 0, A);
         colorResourceID = getResourceID;
@@ -36,6 +35,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
      */
     public View getView(int pos, View convertView, ViewGroup parent) {
         View listItemView = convertView;
+
         if(listItemView == null) {
             LayoutInflater LI = LayoutInflater.from(getContext());
             listItemView = LI.inflate(R.layout.list_item, parent, false);
@@ -49,11 +49,14 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         TextView cost = (TextView) listItemView.findViewById(R.id.cost);
         ImageView resource = (ImageView) listItemView.findViewById(R.id.list_image);
 
-        currentAttraction.setName(currentAttraction.getName());
-        currentAttraction.setAddress(currentAttraction.getAddress());
-        currentAttraction.setDescription(currentAttraction.getDescription());
-        currentAttraction.setResourceID(currentAttraction.getResourceID());
-        currentAttraction.setCost(currentAttraction.getCost());
+        placeName.setText(currentAttraction.getName());
+        address.setText(currentAttraction.getAddress());
+        description.setText(currentAttraction.getDescription());
+        cost.setText(currentAttraction.getCost());
+
+        //resource.setImageResource(currentAttraction.getResourceID());
+        resource.setBackgroundResource(currentAttraction.getResourceID());
+        //resource.setVisibility(View.VISIBLE);
 
         return listItemView;
     }

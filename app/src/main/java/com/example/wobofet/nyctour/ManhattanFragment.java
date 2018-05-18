@@ -20,7 +20,7 @@ public class ManhattanFragment extends Fragment {
         //create View
         View rootView = inflater.inflate(R.layout.fragment_manhattan, container, false);
         ArrayList<Attraction> mAttractions = new ArrayList<Attraction>();
-        mAttractions.add(new Attraction(R.string.attraction_natural_history, R.string.natural_history_address, R.string.natural_history_description, R.drawable.museum_natural_history, R.string.natural_history_price ));
+        mAttractions.add(new Attraction(R.string.attraction_natural_history, R.string.natural_history_address, R.string.natural_history_description, R.drawable.museum_natural_history, R.string.natural_history_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, mAttractions);
 

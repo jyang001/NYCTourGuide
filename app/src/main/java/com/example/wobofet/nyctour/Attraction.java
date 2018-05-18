@@ -3,10 +3,10 @@ package com.example.wobofet.nyctour;
 public class Attraction {
     private static final int NOIMAGE = -1;
 
+    private int name;
     private int address;
     private int description;
     private int resourceID = NOIMAGE;
-    private int name;
     private int cost;
 
     /**

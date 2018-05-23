@@ -1,4 +1,5 @@
-package com.example.wobofet.nyctour;
+package com.example.wobofet.nyctour.brooklyn;
+
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,11 +7,16 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentManager;
 
-public class CategoryAdapter extends FragmentPagerAdapter {
+import com.example.wobofet.nyctour.EntertainmentFragment;
+import com.example.wobofet.nyctour.FoodFragment;
+import com.example.wobofet.nyctour.ParkFragment;
+import com.example.wobofet.nyctour.SightsFragment;
+
+public class BrooklynAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
 
-    public CategoryAdapter(Context context, FragmentManager fm) {
+    public BrooklynAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
@@ -24,7 +30,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return new EntertainmentFragment();
         } else {
-            return new FoodFragment();
+            return new BrooklynFoodFragment();
         }
     }
 

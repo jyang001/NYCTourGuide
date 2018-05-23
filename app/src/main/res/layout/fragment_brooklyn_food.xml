@@ -3,6 +3,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
-    android:id = "@+id/food_list">
+    android:id = "@+id/brooklyn_food_list">
 
 </ListView>

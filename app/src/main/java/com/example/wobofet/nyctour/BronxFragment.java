@@ -21,27 +21,21 @@ public class BronxFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View result = inflater.inflate(R.layout.fragment_bronx, container, false);
-        ViewPager viewPager = (ViewPager) result.findViewById(R.id.viewpager);
+        View view = inflater.inflate(R.layout.fragment_bronx, container, false);
+        ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 
         //need the activity not 'this' the fragment
         CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getFragmentManager());
         viewPager.setAdapter(categoryAdapter);
 
-        TabLayout tabLayout = (TabLayout) result.findViewById(R.id.tabs);
+        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.bronx_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        return result;
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_sights);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_park);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_entertainment);
+        tabLayout.getTabAt(3).setIcon(R.drawable.ic_food);
+
+        return view;
     }
-
-    /*
-     super.onCreate(savedInstanceState);
-     setContentView(R.layout.activity_other);
-
-     ViewPager v = (ViewPager) findViewById(R.id.viewpager);
-     CategoryAdapter a = new CategoryAdapter(this,getSupportFragmentManager());
-     v.setAdapter(a);
-     TabLayout t = (TabLayout) findViewById(R.id.tabs);
-     t.setupWithViewPager(v);
-    */
 }

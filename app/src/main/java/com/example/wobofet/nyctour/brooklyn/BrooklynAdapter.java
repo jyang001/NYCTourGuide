@@ -24,11 +24,11 @@ public class BrooklynAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new SightsFragment();
+            return new BrooklynSightsFragment();
         } else if (position == 1) {
-            return new ParkFragment();
+            return new BrooklynParkFragment();
         } else if (position == 2) {
-            return new EntertainmentFragment();
+            return new BrooklynEntertainmentFragment();
         } else {
             return new BrooklynFoodFragment();
         }

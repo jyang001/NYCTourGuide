@@ -9,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.Fragment;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -36,12 +38,32 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    public void onStop() {
+        super.onStop();
+        Log.v(this.toString(), "Executing onStop().");
+    }
+
+    @Override
     public void onBackPressed() {
+        int fragments = getSupportFragmentManager().getBackStackEntryCount();
+        Log.v(this.toString(),Integer.toString(fragments));
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            //one fragment in backstack (main fragment)
+            if (fragments == 1) {
+                finish();
+            } else {
+                //if there was an activity pressed and added to backstack
+                //remove it
+                if (getSupportFragmentManager().getBackStackEntryCount() > 1) {
+                    getSupportFragmentManager().popBackStack();
+                } else {
+                    super.onBackPressed();
+                }
+            }
         }
     }
 
@@ -93,10 +115,12 @@ public class MainActivity extends AppCompatActivity
         }
 
         if (fragment != null) {
-            FragmentManager fragmentManger = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManger.beginTransaction();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.screen_area, fragment);
+            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
+            Log.d("Stack Count:", "" + fragmentManager.getBackStackEntryCount());
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

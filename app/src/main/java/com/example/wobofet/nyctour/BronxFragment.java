@@ -22,13 +22,14 @@ public class BronxFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_bronx, container, false);
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        final ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 
         //need the activity not 'this' the fragment
-        CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getFragmentManager());
+        CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getChildFragmentManager());
         viewPager.setAdapter(categoryAdapter);
 
-        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.bronx_tabs);
+        final TabLayout tabLayout = (TabLayout) view.findViewById(R.id.bronx_tabs);
+
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_sights);

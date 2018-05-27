@@ -18,7 +18,7 @@ public class BrooklynFragment extends Fragment {
         ViewPager viewPager = (ViewPager) view.findViewById(R.id.brooklyn_viewpager);
 
         //need the activity not 'this' the fragment
-        BrooklynAdapter brooklynAdapter = new BrooklynAdapter(getActivity(), getFragmentManager());
+        BrooklynAdapter brooklynAdapter = new BrooklynAdapter(getActivity(), getChildFragmentManager());
         viewPager.setAdapter(brooklynAdapter);
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.brookyln_tabs);

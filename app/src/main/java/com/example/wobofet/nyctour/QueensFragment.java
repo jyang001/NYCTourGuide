@@ -16,7 +16,7 @@ public class QueensFragment extends Fragment {
         ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 
         //need the activity not 'this' the fragment
-        CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getFragmentManager());
+        CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getChildFragmentManager());
         viewPager.setAdapter(categoryAdapter);
 
         TabLayout tabLayout = (TabLayout) view.findViewById(R.id.queens_tabs);

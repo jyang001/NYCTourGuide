@@ -3,6 +3,7 @@
     <string name="title_activity_main">NYCTour</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+    <string name = "main_screen"> Home Screen</string>
     <string name="category_manhattan">Manhattan</string>
     <string name="category_queens">Queens</string>
     <string name="category_brooklyn">Brooklyn</string>

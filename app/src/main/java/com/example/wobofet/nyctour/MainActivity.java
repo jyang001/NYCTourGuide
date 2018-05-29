@@ -108,10 +108,6 @@ public class MainActivity extends AppCompatActivity
             fragment = new ManhattanFragment();
         } else if (id == R.id.staten_island_item) {
             fragment = new StatenIslandFragment();
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
 
         if (fragment != null) {

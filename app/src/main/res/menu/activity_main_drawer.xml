@@ -3,39 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/bronx_item"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Bronx" />
-        <item
-            android:id="@+id/brooklyn_item"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Brooklyn" />
-        <item
-            android:id="@+id/queens_item"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Queens" />
-        <item
-            android:id="@+id/manhattan_item"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Manhattan" />
-        <item
-            android:id="@+id/staten_island_item"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Staten Island" />
-    </group>
-
-    <item android:title="Communicate">
+    <item android:title="Home">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/main_item"
+                android:icon="@drawable/ic_action_home"
+                android:title="@string/main_screen" />
+        </menu>
+    </item>
+
+
+    <item android:title="Boroughs">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/bronx_item"
+                    android:icon="@drawable/ic_bronx"
+                    android:title="Bronx" />
+                <item
+                    android:id="@+id/brooklyn_item"
+                    android:icon="@drawable/ic_brooklyn"
+                    android:title="Brooklyn" />
+                <item
+                    android:id="@+id/queens_item"
+                    android:icon="@drawable/ic_queens"
+                    android:title="Queens" />
+                <item
+                    android:id="@+id/manhattan_item"
+                    android:icon="@drawable/ic_manahttan"
+                    android:title="Manhattan" />
+                <item
+                    android:id="@+id/staten_island_item"
+                    android:icon="@drawable/ic_statenisland"
+                    android:title="Staten Island" />
+            </group>
         </menu>
     </item>
 

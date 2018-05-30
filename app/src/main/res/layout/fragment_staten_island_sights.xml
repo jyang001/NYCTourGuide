@@ -3,6 +3,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
+    android:dividerHeight="@dimen/listview_margin"
+    android:divider="@android:color/transparent"
     android:id = "@+id/staten_island_sights_list">
 
 </ListView>

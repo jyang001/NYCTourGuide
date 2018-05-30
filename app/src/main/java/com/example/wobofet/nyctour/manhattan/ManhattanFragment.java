@@ -1,35 +1,27 @@
-package com.example.wobofet.nyctour;
+package com.example.wobofet.nyctour.manhattan;
 
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.content.Context;
-import android.net.Uri;
-import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ListView;
-
-import org.w3c.dom.Attr;
-
-import java.util.ArrayList;
+import com.example.wobofet.nyctour.R;
 
 
-public class BronxFragment extends Fragment {
+public class ManhattanFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_bronx, container, false);
-        final ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        View view = inflater.inflate(R.layout.fragment_manhattan, container, false);
+        ViewPager viewPager = (ViewPager) view.findViewById(R.id.manhattan_viewpager);
 
         //need the activity not 'this' the fragment
-        CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getChildFragmentManager());
-        viewPager.setAdapter(categoryAdapter);
+        ManhattanAdapter manhattanAdapter = new ManhattanAdapter(getActivity(), getChildFragmentManager());
+        viewPager.setAdapter(manhattanAdapter);
 
-        final TabLayout tabLayout = (TabLayout) view.findViewById(R.id.bronx_tabs);
-
+        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.manhattan_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_sights);
@@ -40,3 +32,4 @@ public class BronxFragment extends Fragment {
         return view;
     }
 }
+

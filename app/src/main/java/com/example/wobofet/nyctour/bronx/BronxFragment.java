@@ -1,5 +1,4 @@
-package com.example.wobofet.nyctour;
-
+package com.example.wobofet.nyctour.bronx;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -8,18 +7,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class QueensFragment extends Fragment {
+import com.example.wobofet.nyctour.R;
+
+public class BronxFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_queens, container, false);
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        View view = inflater.inflate(R.layout.fragment_bronx, container, false);
+        ViewPager viewPager = (ViewPager) view.findViewById(R.id.bronx_viewpager);
 
         //need the activity not 'this' the fragment
-        CategoryAdapter categoryAdapter = new CategoryAdapter(getActivity(), getChildFragmentManager());
-        viewPager.setAdapter(categoryAdapter);
+        BronxAdapter bronxAdapter = new BronxAdapter(getActivity(), getChildFragmentManager());
+        viewPager.setAdapter(bronxAdapter);
 
-        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.queens_tabs);
+        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.bronx_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_sights);

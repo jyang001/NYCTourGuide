@@ -14,7 +14,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.Fragment;
 
+import com.example.wobofet.nyctour.bronx.BronxFragment;
 import com.example.wobofet.nyctour.brooklyn.BrooklynFragment;
+import com.example.wobofet.nyctour.manhattan.ManhattanFragment;
+import com.example.wobofet.nyctour.queens.QueensFragment;
+import com.example.wobofet.nyctour.statenisland.StatenIslandFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

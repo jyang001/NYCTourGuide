@@ -3,7 +3,7 @@
     <string name="title_activity_main">NYCTour</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name = "main_screen"> Home Screen</string>
+    <string name="main_screen"> Home Screen</string>
     <string name="category_manhattan">Manhattan</string>
     <string name="category_queens">Queens</string>
     <string name="category_brooklyn">Brooklyn</string>
@@ -14,6 +14,13 @@
     <string name="category_food">Food</string>
     <string name="category_park">Park</string>
     <string name="category_entertainment">Entertainment</string>
+
+    <!-- Bronx Attractions -->
+    <string name="attraction_yankee_stadium">Yankee Stadium</string>
+    <string name="yankee_stadium_address"> Central Park West and 79th St, New York, NY 10024 </string>
+    <string name="yankee_stadium_description"> FILL THIS OUT </string>
+    <string name="yankee_stadium_price"> $15 -> $250</string>
+
 
     <!-- Manhattan Attractions -->
     <string name="attraction_natural_history"> Museum of Natural History</string>
@@ -27,6 +34,20 @@
     <string name="destefano_description"> We feature a prime dry aged steaks, an extraordinary wine collection all at a reasonable price. Our family welcomes you and yours to enjoy a real taste of old school Brooklyn.  </string>
     <string name="destefano_history_price"> $$$$</string>
 
+    <!-- Queens Attractions -->
+    <string name="attraction_citifield"> Citifield </string>
+    <string name="citifield_address"> 123-01 Roosevelt Ave, Queens, NY 11368 </string>
+    <string name="citifield_description"> Citi Field will feature unprecedented sightlines, amenities, and comfort for Mets fans, sports fans and visitors to the New York metropolitan area. The open-air ballpark connects the Mets National League heritage to the future and to the City through a number of unique design elements. Citi Field will feature natural grass and capacity for approximately 45,000 fans. A contoured seating configuration will bring spectators closer to the field on all levels to provide optimal sightlines for a more intimate and entertaining experience throughout the park.  </string>
+    <string name="citifield_price"> Average Ticket Price: $27.60</string>
+
+    <!-- Staten Island Attractions -->
+    <string name="attraction_greenbelt"> Staten Island Greenbelt </string>
+    <string name="greenbelt_address"> 700 Rockland Ave, Staten Island, NY 10314-6410 </string>
+    <string name="greenbelt_description"> Staten Island holds in its heart 2,800-acres of nature’s rugged beauty – the Greenbelt. Discover “Forever Wild sites” – mature forests, wetlands, meadows, wildlife and over 35-miles of marked hiking trails. Walk for a while to experience nature’s beauty while taking a break from the hustle and bustle of daily life. </string>
+    <string name="greenbelt_price"> Free </string>
+
+
+    <!-- Navigation stuff -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">NYC</string>

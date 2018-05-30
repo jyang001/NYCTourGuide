@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.wobofet.nyctour.CategoryAdapter;
 import com.example.wobofet.nyctour.R;
 
 public class BrooklynFragment extends Fragment {
@@ -15,13 +14,14 @@ public class BrooklynFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_brooklyn, container, false);
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.brooklyn_viewpager);
+        final ViewPager viewPager = (ViewPager) view.findViewById(R.id.brooklyn_viewpager);
 
         //need the activity not 'this' the fragment
         BrooklynAdapter brooklynAdapter = new BrooklynAdapter(getActivity(), getChildFragmentManager());
         viewPager.setAdapter(brooklynAdapter);
 
-        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.brookyln_tabs);
+        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.brooklyn_tabs);
+
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_sights);

@@ -21,7 +21,7 @@ public class ManhattanFoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_manhattan_food, container, false);
 
         ArrayList<Attraction> foods = new ArrayList<Attraction>();
-        foods.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        foods.add(new Attraction(R.string.attraction_daniel, R.string.daniel_address, R.string.daniel_description, R.drawable.danielnyc, R.string.daniel_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, foods);
 

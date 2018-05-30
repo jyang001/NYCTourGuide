@@ -17,7 +17,7 @@ public class ManhattanParkFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_manhattan_park, container, false);
 
         ArrayList<Attraction> parks = new ArrayList<Attraction>();
-        parks.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        parks.add(new Attraction(R.string.attraction_central_park, R.string.central_park_address, R.string.central_park_description, R.drawable.centralpark, R.string.central_park_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, parks);
 

@@ -21,12 +21,33 @@
     <string name="yankee_stadium_description"> FILL THIS OUT </string>
     <string name="yankee_stadium_price"> $15 -> $250</string>
 
-
     <!-- Manhattan Attractions -->
     <string name="attraction_natural_history"> Museum of Natural History</string>
     <string name="natural_history_address"> Central Park West and 79th St, New York, NY 10024 </string>
     <string name="natural_history_description"> The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions. Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition. </string>
     <string name="natural_history_price"> $1700</string>
+
+    <string name="attraction_empire_state"> Empire State Building</string>
+    <string name="empire_state_address"> 350 5th Ave, New York, NY 10118 </string>
+    <string name="empire_state_description"> 102-story Art Deco skyscraper in Midtown Manhattan, New York City. Designed by Shreve, Lamb and Harmon and completed in 1931, the building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall, including its antenna. Its name is derived from "Empire State", the nickname of New York. As of 2017 the building is the 5th-tallest completed skyscraper in the United States and the 28th-tallest in the world. It is also the 6th-tallest freestanding structure in the Americas. </string>
+    <string name="empire_state_price"> $20 -> $30</string>
+
+    <string name="attraction_rockefeller"> Rockefeller Centre </string>
+    <string name="rockefeller_address"> 30 Rockefeller Plaza New York, NY
+                                        Entrance on 50th Street between Fifth and Sixth Avenues </string>
+    <string name="rockefeller_description"> Built by one of the richest businessmen of his era, John D. Rockefeller, this enormous complex employed over 40,000 workers over nine years during its construction. On a daily basis, more than 350,000 visitors make their way to the historic landmark, starting early in the morning with folks hoping to see celebrities or wave to their families on TV at the Today Show plaza. Meanwhile, fans of television clamour for the NBC studio tour, which covers the network’s history and sites in 30 Rock.  </string>
+    <string name="rockefeller_price"> Children: $30
+                                      Adults: $36</string>
+
+    <string name="attraction_central_park"> Central Park</string>
+    <string name="central_park_address"> Between 59th Street and 110st </string>
+    <string name="central_park_description"> Central Park is one of those places that make New York such a great place to live. The huge park, 341 hectare large (843 acres), is located in the center of Manhattan. Its design has served as an example for city parks around the world. </string>
+    <string name="central_park_price"> free</string>
+
+    <string name="attraction_daniel"> Daniel</string>
+    <string name="daniel_address"> 60 E 65th Street New York, NY 10065</string>
+    <string name="daniel_description"> Since opening in 1993, DANIEL has earned its place among the pillars of New York City’s bustling dining scene, receiving numerous accolades for its refined European cuisine, world-class cellar and gracious hospitality.  </string>
+    <string name="daniel_price"> $$$$ </string>
 
     <!-- Brooklyn Attractions -->
     <string name="attraction_destefano"> DeStefanos Steak House</string>

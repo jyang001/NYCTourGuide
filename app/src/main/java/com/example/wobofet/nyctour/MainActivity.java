@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.screen_area, new MainPage()).commit();
     }
 
     @Override
@@ -112,6 +115,8 @@ public class MainActivity extends AppCompatActivity
             fragment = new ManhattanFragment();
         } else if (id == R.id.staten_island_item) {
             fragment = new StatenIslandFragment();
+        } else if (id == R.id.main_item) {
+            fragment = new MainPage();
         }
 
         if (fragment != null) {

@@ -25,7 +25,7 @@
     <string name="attraction_natural_history"> Museum of Natural History</string>
     <string name="natural_history_address"> Central Park West and 79th St, New York, NY 10024 </string>
     <string name="natural_history_description"> The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions. Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition. </string>
-    <string name="natural_history_price"> $1700</string>
+    <string name="natural_history_price"> Adult: $22, Children(2 - 12y.o.): $12.50, Seniors and Students: $17</string>
 
     <string name="attraction_empire_state"> Empire State Building</string>
     <string name="empire_state_address"> 350 5th Ave, New York, NY 10118 </string>
@@ -33,11 +33,9 @@
     <string name="empire_state_price"> $20 -> $30</string>
 
     <string name="attraction_rockefeller"> Rockefeller Centre </string>
-    <string name="rockefeller_address"> 30 Rockefeller Plaza New York, NY
-                                        Entrance on 50th Street between Fifth and Sixth Avenues </string>
+    <string name="rockefeller_address"> 30 Rockefeller Plaza New York, NY. Entrance is on 50th Street between Fifth and Sixth Avenues </string>
     <string name="rockefeller_description"> Built by one of the richest businessmen of his era, John D. Rockefeller, this enormous complex employed over 40,000 workers over nine years during its construction. On a daily basis, more than 350,000 visitors make their way to the historic landmark, starting early in the morning with folks hoping to see celebrities or wave to their families on TV at the Today Show plaza. Meanwhile, fans of television clamour for the NBC studio tour, which covers the network’s history and sites in 30 Rock.  </string>
-    <string name="rockefeller_price"> Children: $30
-                                      Adults: $36</string>
+    <string name="rockefeller_price"> Children: $30 Adults: $36</string>
 
     <string name="attraction_central_park"> Central Park</string>
     <string name="central_park_address"> Between 59th Street and 110st </string>
@@ -55,11 +53,31 @@
     <string name="destefano_description"> We feature a prime dry aged steaks, an extraordinary wine collection all at a reasonable price. Our family welcomes you and yours to enjoy a real taste of old school Brooklyn.  </string>
     <string name="destefano_history_price"> $$$$</string>
 
+    <string name="attraction_prospectpark"> Prospect Park </string>
+    <string name="prospectpark_address"> 123-01 Roosevelt Ave, Queens, NY 11368 </string>
+    <string name="prospectpark_description"> Citi Field will feature unprecedented sightlines, amenities, and comfort for Mets fans, sports fans and visitors to the New York metropolitan area. The open-air ballpark connects the Mets National League heritage to the future and to the City through a number of unique design elements. Citi Field will feature natural grass and capacity for approximately 45,000 fans. A contoured seating configuration will bring spectators closer to the field on all levels to provide optimal sightlines for a more intimate and entertaining experience throughout the park.  </string>
+    <string name="prospectpark_price"> Free </string>
+
     <!-- Queens Attractions -->
     <string name="attraction_citifield"> Citifield </string>
     <string name="citifield_address"> 123-01 Roosevelt Ave, Queens, NY 11368 </string>
     <string name="citifield_description"> Citi Field will feature unprecedented sightlines, amenities, and comfort for Mets fans, sports fans and visitors to the New York metropolitan area. The open-air ballpark connects the Mets National League heritage to the future and to the City through a number of unique design elements. Citi Field will feature natural grass and capacity for approximately 45,000 fans. A contoured seating configuration will bring spectators closer to the field on all levels to provide optimal sightlines for a more intimate and entertaining experience throughout the park.  </string>
     <string name="citifield_price"> Average Ticket Price: $27.60</string>
+
+    <string name="attraction_coronapark"> Corona Park </string>
+    <string name="coronapark_address"> Grand Central Pkwy., Whitestone Exwy. bet. 111 St. and College Point Blvd </string>
+    <string name="coronapark_description"> The site of two twentieth century Worlds Fairs attended by millions of people, Flushing Meadows Corona Park continues to draw and delight visitors. As the largest park in Queens, it offers plenty of space for whatever your recreational desires may be--baseball, soccer, tennis, cricket, et cetera. Lots more too, including a stunning recreation complex, a zoo, an art museum, a botanical garden, a science museum, and a baseball stadium. Explore one of the parks six playgrounds, take a stroll along the Flushing Bay Promenade, or launch your model airplane. Flushing Meadows Corona Park has room for all your active pursuits! </string>
+    <string name="coronapark_price"> Free </string>
+
+    <string name="attraction_nanxiang"> Nan Xiang Xiao Long Bao </string>
+    <string name="nanxiang_address"> 38-12 Prince St Flushing, NY 11354 </string>
+    <string name="nanxiang_description"> Nan Xiang Xiao Long Bao, where light, delicate dumplings swirl in flavorful broth. You can hardly call yourself a dumpling connoisseur if you haven’t slurped the crab-and-pork variety here. Bonus: they serve complimentary fresh ginger tea. </string>
+    <string name="nanxiang_price"> $ </string>
+
+    <string name="attraction_botanical"> Queens Botanical Garden </string>
+    <string name="botanical_address"> 43-50 Main St, Queens, NY 11355 </string>
+    <string name="botanical_description"> Located at 43-50 Main Street in Flushing, Queens, New York, the Queens Botanical Garden consists of 39 acres, featuring rose, bee, herb, wedding, and perennial gardens, an arboretum, an art gallery, and a "Platinum" LEED rated Visitor and  Administration Building. It is open to the public. The Garden hosts wedding ceremonies, receptions, and other private and corporate events.[4] Wedding photography is popular by appointment.</string>
+    <string name="botanical_price"> $ </string>
 
     <!-- Staten Island Attractions -->
     <string name="attraction_greenbelt"> Staten Island Greenbelt </string>

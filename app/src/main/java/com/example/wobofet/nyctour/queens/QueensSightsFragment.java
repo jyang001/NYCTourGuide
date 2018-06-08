@@ -20,7 +20,7 @@ public class QueensSightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_queens_sights, container, false);
 
         ArrayList<Attraction> sights = new ArrayList<Attraction>();
-        sights.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        sights.add(new Attraction(R.string.attraction_botanical, R.string.botanical_address, R.string.botanical_description, R.drawable.botanical_garden, R.string.botanical_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, sights);
 

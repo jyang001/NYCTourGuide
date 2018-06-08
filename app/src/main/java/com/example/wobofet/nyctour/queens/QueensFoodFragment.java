@@ -21,7 +21,7 @@ public class QueensFoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_queens_food, container, false);
 
         ArrayList<Attraction> foods = new ArrayList<Attraction>();
-        foods.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        foods.add(new Attraction(R.string.attraction_nanxiang, R.string.nanxiang_address, R.string.nanxiang_description, R.drawable.nan_xiang, R.string.nanxiang_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, foods);
 

@@ -20,7 +20,7 @@ public class QueensParkFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_queens_park, container, false);
 
         ArrayList<Attraction> parks = new ArrayList<Attraction>();
-        parks.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        parks.add(new Attraction(R.string.attraction_coronapark, R.string.coronapark_address, R.string.coronapark_description, R.drawable.coronapark, R.string.coronapark_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, parks);
 

@@ -93,6 +93,12 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!-- Main Page -->
+    <string name="app_descrip"> NYCTour is an app to take you through the different attractions of New York City. It features the ability to tour through different boroughs by selecting the desired borough in the Drawer Layout. Each borough features a variety of different categories of Attractions you may wish to view.</string>
+    <string name="location_descip"> Denotes the location/address of the attraction</string>
+    <string name="cost_descip"> Denotes the cost of the attraction. Attractions with varying prices are denoted with $. The number of $ signs shows the cost. With $ being the cheapest and $$$$ being the most expensive. </string>
+=
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

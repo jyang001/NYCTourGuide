@@ -7,9 +7,68 @@
     android:id = "@+id/main_page">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="HELOOOOO" />
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:src = "@drawable/ic_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft = "10dp"
+            android:text="@string/app_descrip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft = "15dp"
+            android:paddingTop="@dimen/nav_header_top_spacing"
+            android:textSize="24dp"
+            android:text = "ICON DESCRIPTIONS"/>
+
+        <LinearLayout
+            android:paddingTop="@dimen/listview_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background = "@drawable/ic_cost_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cost_descip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="@dimen/listview_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background = "@drawable/ic_place_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_descip"/>
+        </LinearLayout>
+
+    </LinearLayout>
 
 </FrameLayout>

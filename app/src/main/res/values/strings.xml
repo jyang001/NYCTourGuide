@@ -16,46 +16,81 @@
     <string name="category_entertainment">Entertainment</string>
 
     <!-- Bronx Attractions -->
+    <string name="attraction_bronx_zoo">Bronx Zoo</string>
+    <string name="bronx_zoo_address"> 2300 Southern Blvd, Bronx, NY 10460 </string>
+    <string name="bronx_zoo_description"> The Bronx Zoo is one of the most famous zoos in the world. In 1898, the City of New York allotted 250 acres of Bronx Park to the New York Zoological Society to build a park aimed at preserving native animals and promoting zoology. The Bronx Zoo opened in 1899 and remains one of the largest wildlife conservation parks in the United States, housing 4,000 animals representing more than 650 species. </string>
+    <string name="bronx_zoo_price">Children: $12.95, Adults: $19.95, Seniors: $17.95, College Students: Free</string>
+
     <string name="attraction_yankee_stadium">Yankee Stadium</string>
     <string name="yankee_stadium_address"> Central Park West and 79th St, New York, NY 10024 </string>
-    <string name="yankee_stadium_description"> FILL THIS OUT </string>
+    <string name="yankee_stadium_description"> A new era in the history of the New York Yankees began in 2009 when the team moved from the most famous and historic stadium in the world to their new stadium across East 161st Street. The name, Yankee Stadium, remains the same, and it appears that ghosts of the old Yankee Stadium moved to the new one as the New York Yankees won their 27th World Championship in 2009. For over eight decades the Yankees played at the old Yankee Stadium. When it opened in 1923, it was the largest and most magnificent stadium in baseball and was home to many legendary players and teams. </string>
     <string name="yankee_stadium_price"> $15 -> $250</string>
 
     <!-- Manhattan Attractions -->
     <string name="attraction_natural_history"> Museum of Natural History</string>
     <string name="natural_history_address"> Central Park West and 79th St, New York, NY 10024 </string>
-    <string name="natural_history_description"> The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions. Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition. </string>
+    <string name="natural_history_description">The American Museum of Natural History is one of the world’s preeminent scientific and cultural institutions. Since its founding in 1869, the Museum has advanced its global mission to discover, interpret, and disseminate information about human cultures, the natural world, and the universe through a wide-ranging program of scientific research, education, and exhibition. </string>
     <string name="natural_history_price"> Adult: $22, Children(2 - 12y.o.): $12.50, Seniors and Students: $17</string>
 
     <string name="attraction_empire_state"> Empire State Building</string>
     <string name="empire_state_address"> 350 5th Ave, New York, NY 10118 </string>
-    <string name="empire_state_description"> 102-story Art Deco skyscraper in Midtown Manhattan, New York City. Designed by Shreve, Lamb and Harmon and completed in 1931, the building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall, including its antenna. Its name is derived from "Empire State", the nickname of New York. As of 2017 the building is the 5th-tallest completed skyscraper in the United States and the 28th-tallest in the world. It is also the 6th-tallest freestanding structure in the Americas. </string>
+    <string name="empire_state_description">102-story Art Deco skyscraper in Midtown Manhattan, New York City. Designed by Shreve, Lamb and Harmon and completed in 1931, the building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall, including its antenna. Its name is derived from "Empire State", the nickname of New York. As of 2017 the building is the 5th-tallest completed skyscraper in the United States and the 28th-tallest in the world. It is also the 6th-tallest freestanding structure in the Americas. </string>
     <string name="empire_state_price"> $20 -> $30</string>
 
     <string name="attraction_rockefeller"> Rockefeller Centre </string>
     <string name="rockefeller_address"> 30 Rockefeller Plaza New York, NY. Entrance is on 50th Street between Fifth and Sixth Avenues </string>
-    <string name="rockefeller_description"> Built by one of the richest businessmen of his era, John D. Rockefeller, this enormous complex employed over 40,000 workers over nine years during its construction. On a daily basis, more than 350,000 visitors make their way to the historic landmark, starting early in the morning with folks hoping to see celebrities or wave to their families on TV at the Today Show plaza. Meanwhile, fans of television clamour for the NBC studio tour, which covers the network’s history and sites in 30 Rock.  </string>
+    <string name="rockefeller_description">Built by one of the richest businessmen of his era, John D. Rockefeller, this enormous complex employed over 40,000 workers over nine years during its construction. On a daily basis, more than 350,000 visitors make their way to the historic landmark, starting early in the morning with folks hoping to see celebrities or wave to their families on TV at the Today Show plaza. Meanwhile, fans of television clamour for the NBC studio tour, which covers the network’s history and sites in 30 Rock.  </string>
     <string name="rockefeller_price"> Children: $30 Adults: $36</string>
 
     <string name="attraction_central_park"> Central Park</string>
     <string name="central_park_address"> Between 59th Street and 110st </string>
-    <string name="central_park_description"> Central Park is one of those places that make New York such a great place to live. The huge park, 341 hectare large (843 acres), is located in the center of Manhattan. Its design has served as an example for city parks around the world. </string>
-    <string name="central_park_price"> free</string>
+    <string name="central_park_description">Central Park is one of those places that make New York such a great place to live. The huge park, 341 hectare large (843 acres), is located in the center of Manhattan. Its design has served as an example for city parks around the world. </string>
+    <string name="central_park_price"> Free</string>
 
     <string name="attraction_daniel"> Daniel</string>
     <string name="daniel_address"> 60 E 65th Street New York, NY 10065</string>
     <string name="daniel_description"> Since opening in 1993, DANIEL has earned its place among the pillars of New York City’s bustling dining scene, receiving numerous accolades for its refined European cuisine, world-class cellar and gracious hospitality.  </string>
-    <string name="daniel_price"> $$$$ </string>
+    <string name="daniel_price"> $$$$</string>
 
     <!-- Brooklyn Attractions -->
+    <string name="attraction_brooklyn_museum"> Brooklyn Museum </string>
+    <string name="brooklyn_museum_address"> 200 Eastern Pkwy, Brooklyn, NY 11238 </string>
+    <string name="brooklyn_museum_description">  Located near the Prospect Heights, Crown Heights, Flatbush, and Park Slope neighborhoods of Brooklyn and founded in 1895, the Beaux-Arts building, designed by McKim, Mead and White, was planned to be the largest art museum in the world. The museum initially struggled to maintain its building and collection, only to be revitalized in the late 20th century, thanks to major renovations. Significant areas of the collection include antiquities, specifically their collection of Egyptian antiquities spanning over 3,000 years. </string>
+    <string name="brooklyn_museum_price"> Under 20: Free, Others: $16</string>
+
+    <string name="attraction_brooklyn_bridge"> Brooklyn Bridge </string>
+    <string name="brooklyn_bridge_address"> Brooklyn Bridge, New York, NY 10038 </string>
+    <string name="brooklyn_bridge_description"> The Brooklyn Bridge is a hybrid cable-stayed/suspension bridge in New York City and is one of the oldest roadway bridges in the United States. Started in 1869 and completed fourteen years later in 1883, it connects the boroughs of Manhattan and Brooklyn, spanning the East River. It has a main span of 1,595.5 feet (486.3 m) and was the first steel-wire suspension bridge constructed. It was originally called the New York and Brooklyn Bridge and the East River Bridge, but it was later dubbed the Brooklyn Bridge, a name coming from an earlier January 25, 1867, letter to the editor of the Brooklyn Daily Eagle[8] and formally so named by the city government in 1915. Since opening, it has become an icon of New York City and was designated a National Historic Landmark in 1964 and a National Historic Civil Engineering Landmark in 1972. </string>
+    <string name="brooklyn_bridge_price"> Free </string>
+
     <string name="attraction_destefano"> DeStefanos Steak House</string>
     <string name="destefano_address"> 89 Conselyea St, Brooklyn, NY 11211-2301 </string>
-    <string name="destefano_description"> We feature a prime dry aged steaks, an extraordinary wine collection all at a reasonable price. Our family welcomes you and yours to enjoy a real taste of old school Brooklyn.  </string>
-    <string name="destefano_history_price"> $$$$</string>
+    <string name="destefano_description"> DeStefanos Steak House features a prime dry aged steaks, an extraordinary wine collection all at a reasonable price. Our family welcomes you and yours to enjoy a real taste of old school Brooklyn.  </string>
+    <string name="destefano_price"> $$$$</string>
+
+    <string name="attraction_footprints"> Footprints Cafe</string>
+    <string name="footprints_address"> 89 Conselyea St, Brooklyn, NY 11211-2301 </string>
+    <string name="footprints_description"> Footprints Cafe features a prime dry aged steaks, an extraordinary wine collection all at a reasonable price. Our family welcomes you and yours to enjoy a real taste of old school Brooklyn.  </string>
+    <string name="footprints_price"> $$$$</string>
+
+    <string name="attraction_barclays"> Barclays Center </string>
+    <string name="barclays_address"> 620 Atlantic Ave, Brooklyn, NY 11217 </string>
+    <string name="barclays_description">In the heart of Brooklyn, at the crossroads of Atlantic and Flatbush Avenues, Barclays Center is setting a new standard as the showcase venue for the world’s most thrilling entertainment and sports events.BSE Global manages and controls Barclays Center, the Brooklyn Nets and the New York Islanders business operations. It is also overseeing the redevelopment of Nassau Veterans Memorial Coliseum and the renovation of the historic Brooklyn Paramount Theatre and will manage the operations of both venues upon their opening. </string>
+    <string name="barclays_price"> Varies </string>
+
+    <string name="attraction_luna_park"> Luna Park </string>
+    <string name="luna_park_address"> 1000 Surf Ave, Brooklyn, NY 11224 </string>
+    <string name="luna_park_description"> Luna Park is the first new amusement park to be built in Coney Island in over 40 years, complete with brand new rides, roller coasters, games, an Arcade, go-karts, restaurants. food stands, the historic Cyclone Roller Coaster, and The Mighty Thunderbolt. </string>
+    <string name="luna_park_price"> $$$ </string>
+
+    <string name="attraction_fort_greene"> Fort Greene Park </string>
+    <string name="fort_greene_address"> Washington Park St, Brooklyn, NY 11205 </string>
+    <string name="fort_greene_description">Fort Greenes history is rife with important names--Walt Whitman, Nathaniel Greene, Frederick Law Olmsted, Calvert Vaux, William Howard Taft, and McKim, Mead and White, to name a few--hinting at the important role the park has played in the citys history. Originally the site of forts built for the Revolutionary War and the War of 1812, the community surrounding the land started using it as public space shortly after the threat of the War of 1812 passed. By 1847, it was designated a park (Brooklyns first), and twenty years later, famed landscape architects Olmsted and Vaux began designing its new layout. In 1897, the park, formerly known as Washington Park, received its name.</string>
+    <string name="fort_greene_price"> Free </string>
 
     <string name="attraction_prospectpark"> Prospect Park </string>
-    <string name="prospectpark_address"> 123-01 Roosevelt Ave, Queens, NY 11368 </string>
-    <string name="prospectpark_description"> Citi Field will feature unprecedented sightlines, amenities, and comfort for Mets fans, sports fans and visitors to the New York metropolitan area. The open-air ballpark connects the Mets National League heritage to the future and to the City through a number of unique design elements. Citi Field will feature natural grass and capacity for approximately 45,000 fans. A contoured seating configuration will bring spectators closer to the field on all levels to provide optimal sightlines for a more intimate and entertaining experience throughout the park.  </string>
+    <string name="prospectpark_address"> Brooklyn, NY 11225 </string>
+    <string name="prospectpark_description">  Designed and constructed over a thirty-year period (1865-1895) by Frederick Law Olmsted and Calvert Vaux, the masterminds behind Central Park, Prospect Park has blossomed into a premiere destination for Brooklyn visitors and residents alike.Widely known for its intricate manmade watercourse (wetlands) and its trees, the bulk of Brooklyns remaining indigenous forest, the park is a highly functional green space. Contained within its 526 acres are a zoo, the first urban-area Audubon Center in the nation, an ice rink, a band shell, a carousel, and dozens of athletic and recreational facilities. </string>
     <string name="prospectpark_price"> Free </string>
 
     <!-- Queens Attractions -->
@@ -84,7 +119,6 @@
     <string name="greenbelt_address"> 700 Rockland Ave, Staten Island, NY 10314-6410 </string>
     <string name="greenbelt_description"> Staten Island holds in its heart 2,800-acres of nature’s rugged beauty – the Greenbelt. Discover “Forever Wild sites” – mature forests, wetlands, meadows, wildlife and over 35-miles of marked hiking trails. Walk for a while to experience nature’s beauty while taking a break from the hustle and bustle of daily life. </string>
     <string name="greenbelt_price"> Free </string>
-
 
     <!-- Navigation stuff -->
     <string name="navigation_drawer_open">Open navigation drawer</string>

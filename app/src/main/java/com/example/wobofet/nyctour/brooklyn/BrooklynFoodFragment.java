@@ -20,7 +20,8 @@ public class BrooklynFoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_brooklyn_food, container, false);
 
         ArrayList<Attraction> foods = new ArrayList<Attraction>();
-        foods.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.destefano, R.string.destefano_history_price));
+        foods.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.destefano, R.string.destefano_price));
+        foods.add(new Attraction(R.string.attraction_footprints, R.string.footprints_address, R.string.footprints_description, R.drawable.footprints, R.string.footprints_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, foods);
 

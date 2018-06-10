@@ -20,7 +20,8 @@ public class BrooklynSightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_brooklyn_sights, container, false);
 
         ArrayList<Attraction> sights = new ArrayList<Attraction>();
-        sights.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.brooklynmuseum, R.string.destefano_history_price));
+        sights.add(new Attraction(R.string.attraction_brooklyn_museum, R.string.brooklyn_museum_address, R.string.brooklyn_museum_description, R.drawable.brooklyn_museum, R.string.brooklyn_museum_price));
+        sights.add(new Attraction(R.string.attraction_brooklyn_bridge, R.string.brooklyn_bridge_address, R.string.brooklyn_bridge_description, R.drawable.brooklyn_bridge, R.string.brooklyn_bridge_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, sights);
 

@@ -20,7 +20,8 @@ public class BrooklynEntertainmentFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_brooklyn_entertainment, container, false);
 
         ArrayList<Attraction> entertainments = new ArrayList<Attraction>();
-        entertainments.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.barclayscenter, R.string.destefano_history_price));
+        entertainments.add(new Attraction(R.string.attraction_barclays, R.string.barclays_address, R.string.barclays_description, R.drawable.barclayscenter, R.string.barclays_price));
+        entertainments.add(new Attraction(R.string.attraction_luna_park, R.string.luna_park_address, R.string.luna_park_description, R.drawable.luna_park, R.string.luna_park_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, entertainments);
 

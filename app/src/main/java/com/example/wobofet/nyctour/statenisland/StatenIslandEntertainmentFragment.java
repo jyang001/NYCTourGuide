@@ -20,7 +20,7 @@ public class StatenIslandEntertainmentFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_staten_island_entertainment, container, false);
 
         ArrayList<Attraction> entertainments = new ArrayList<Attraction>();
-        entertainments.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        entertainments.add(new Attraction(R.string.attraction_escape_room, R.string.escape_room_address, R.string.escape_room_description, R.drawable.escape_room, R.string.escape_room_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, entertainments);
 

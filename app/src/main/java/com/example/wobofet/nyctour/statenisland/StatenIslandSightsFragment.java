@@ -21,7 +21,7 @@ public class StatenIslandSightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_staten_island_sights, container, false);
 
         ArrayList<Attraction> sights = new ArrayList<Attraction>();
-        sights.add(new Attraction(R.string.attraction_citifield, R.string.citifield_address, R.string.citifield_description, R.drawable.citifield, R.string.citifield_price));
+        sights.add(new Attraction(R.string.attraction_national_lighthouse, R.string.national_lighthouse_address, R.string.national_lighthouse_description, R.drawable.national_lighthouse, R.string.national_lighthouse_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, sights);
 

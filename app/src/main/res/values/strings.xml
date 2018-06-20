@@ -120,6 +120,21 @@
     <string name="greenbelt_description"> Staten Island holds in its heart 2,800-acres of nature’s rugged beauty – the Greenbelt. Discover “Forever Wild sites” – mature forests, wetlands, meadows, wildlife and over 35-miles of marked hiking trails. Walk for a while to experience nature’s beauty while taking a break from the hustle and bustle of daily life. </string>
     <string name="greenbelt_price"> Free </string>
 
+    <string name="attraction_national_lighthouse"> National Lighthouse Museum </string>
+    <string name="national_lighthouse_address"> 200 Promenade at Lighthouse Point, Staten Island, NY 10301 </string>
+    <string name="national_lighthouse_description"> Located on the former site of the United States Lighthouse Service’s General Depot in St. George, Staten Island, the National Lighthouse Museum educates visitors about the history and technology of the nation’s lighthouses. A three-minute walk from the Staten Island Ferrys St. George Terminal, visitors receive a brief orientation to the self-guided museum. Exhibits include: The Wall of Lights, a display of over 160 miniature lighthouse models, as well as exhibits on lighthouse keepers, foghorns and sound signals, illuminants and optics. Guided walking tours of the site are also available by appointment. </string>
+    <string name="national_lighthouse_price"> $30/person </string>
+
+    <string name="attraction_escape_room"> Amazing Escape Room Staten Island NY </string>
+    <string name="escape_room_address"> 585 N Gannon Ave Staten Island, NY 10314 </string>
+    <string name="escape_room_description"> Escape Rooms are the newest trend worldwide, and Amazing Escape Room brings a higher quality experience to customers. We are a national retail entertainment chain with locations in New Jersey, Pennsylvania, Georgia, California, and Illinois; we challenge your mind and ability to collaborate with others in an interactive, team-building environment where good times and good memories are had by all. Come escape with us! </string>
+    <string name="escape_room_price">  </string>
+
+    <string name="attraction_nino"> Ninos Restaurant </string>
+    <string name="nino_address"> 585 1110 Hylan Blvd, Staten Island, NY 10305 </string>
+    <string name="nino_description"> Natty Nino himself, sharp as a filet knife, is often seen hustling along an endless army of waist-coated servers, who flutter and fuss and seem to pop out from under tables and behind walls to fill glasses, sprinkle cheese, and bone fish. The smooth servers and the trompe loeil walls, tapestries, bouquets, and bright brocade make Ninos a favorite default for well-heeled neighbors looking for a smiling face and a warm greeting. The food, mainly Italian seafood with a sprinkling of contemporary touches like shiitakes, rice vinegar, and soy sauce, offers well-crafted but sometimes uninspired dishes. However, routine is not necessarily bad, nor apparently an impediment to pleasant times for the repeat diners. Pastas are often house-made, and appetizers can be promising, like little neck clams in a bracing herbed tomato sauce. Grilled fish steaks—tuna especially—are hefty portions of high quality, cooked through. If you like some juice left in your fish, youd better ask.  </string>
+    <string name="nino_price"> $$ </string>
+
     <!-- Navigation stuff -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

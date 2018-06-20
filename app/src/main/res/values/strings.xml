@@ -21,10 +21,20 @@
     <string name="bronx_zoo_description"> The Bronx Zoo is one of the most famous zoos in the world. In 1898, the City of New York allotted 250 acres of Bronx Park to the New York Zoological Society to build a park aimed at preserving native animals and promoting zoology. The Bronx Zoo opened in 1899 and remains one of the largest wildlife conservation parks in the United States, housing 4,000 animals representing more than 650 species. </string>
     <string name="bronx_zoo_price">Children: $12.95, Adults: $19.95, Seniors: $17.95, College Students: Free</string>
 
+    <string name="attraction_bronx_park"> Bronx Park </string>
+    <string name="bronx_park_address"> Burke Ave., E. 180 St. bet. Dr. Kazamiroff Blvd., Southern Blvd. and Bronx Park E </string>
+    <string name="bronx_park_description"> A new era in the history of the New York Yankees began in 2009 when the team moved from the most famous and historic stadium in the world to their new stadium across East 161st Street. The name, Yankee Stadium, remains the same, and it appears that ghosts of the old Yankee Stadium moved to the new one as the New York Yankees won their 27th World Championship in 2009. For over eight decades the Yankees played at the old Yankee Stadium. When it opened in 1923, it was the largest and most magnificent stadium in baseball and was home to many legendary players and teams. </string>
+    <string name="bronx_park_price"> FREE </string>
+
     <string name="attraction_yankee_stadium">Yankee Stadium</string>
     <string name="yankee_stadium_address"> Central Park West and 79th St, New York, NY 10024 </string>
     <string name="yankee_stadium_description"> A new era in the history of the New York Yankees began in 2009 when the team moved from the most famous and historic stadium in the world to their new stadium across East 161st Street. The name, Yankee Stadium, remains the same, and it appears that ghosts of the old Yankee Stadium moved to the new one as the New York Yankees won their 27th World Championship in 2009. For over eight decades the Yankees played at the old Yankee Stadium. When it opened in 1923, it was the largest and most magnificent stadium in baseball and was home to many legendary players and teams. </string>
     <string name="yankee_stadium_price"> $15 -> $250</string>
+
+    <string name="attraction_denino"> Deninos Pizzeria and Tavern </string>
+    <string name="denino_address"> 524 Port Richmond Ave, Staten Island, NY 10302-1721 </string>
+    <string name="denino_description"> Deninos originally opened in 1937 as a full tavern on Richmond Avenue, Staten Island until Carlo Denino introduced Pizza in 1951. Since then, Denino’s Pizzeria and Tavern has been renowned for our pizza pie and Italian dinner platters, which we always prepare fresh daily. Denino use family’s recipes for Chicken Parmigiana, Meatballs and Sausage and over the years we’ve added their own version of tavern favorites like Wings, Scungilli and Hero Sandwiches. </string>
+    <string name="denino_price"> $$ </string>
 
     <!-- Manhattan Attractions -->
     <string name="attraction_natural_history"> Museum of Natural History</string>

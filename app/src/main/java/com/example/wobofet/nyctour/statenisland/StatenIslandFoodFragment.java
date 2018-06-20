@@ -20,7 +20,7 @@ public class StatenIslandFoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_staten_island_food, container, false);
 
         ArrayList<Attraction> entertainments = new ArrayList<Attraction>();
-        entertainments.add(new Attraction(R.string.attraction_nino, R.string.nino_address, R.string.nino_description, R.drawable.nino, R.string.nino_price));
+        entertainments.add(new Attraction(R.string.attraction_denino, R.string.denino_address, R.string.denino_description, R.drawable.denino, R.string.denino_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, entertainments);
 

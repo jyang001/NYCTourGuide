@@ -21,7 +21,7 @@ public class BronxFoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_bronx_food, container, false);
 
         ArrayList<Attraction> foods = new ArrayList<Attraction>();
-        foods.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.barclayscenter, R.string.destefano_history_price));
+        foods.add(new Attraction(R.string.attraction_denino, R.string.denino_address, R.string.denino_description, R.drawable.denino, R.string.denino_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, foods);
 

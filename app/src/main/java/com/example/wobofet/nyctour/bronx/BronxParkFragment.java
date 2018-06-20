@@ -20,7 +20,7 @@ public class BronxParkFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_bronx_park, container, false);
 
         ArrayList<Attraction> parks = new ArrayList<Attraction>();
-        parks.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.barclayscenter, R.string.destefano_history_price));
+        parks.add(new Attraction(R.string.attraction_bronx_park, R.string.bronx_park_address, R.string.bronx_park_description, R.drawable.bronxpark, R.string.bronx_park_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, parks);
 

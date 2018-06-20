@@ -20,8 +20,7 @@ public class BronxSightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_bronx_sights, container, false);
 
         ArrayList<Attraction> sights = new ArrayList<Attraction>();
-        sights.add(new Attraction(R.string.attraction_destefano, R.string.destefano_address, R.string.destefano_description, R.drawable.barclayscenter, R.string.destefano_history_price));
-
+        sights.add(new Attraction(R.string.attraction_bronx_zoo, R.string.bronx_zoo_address, R.string.bronx_zoo_description, R.drawable.bronx_zoo, R.string.bronx_zoo_price));
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, sights);
 
         //In the View find the ListView

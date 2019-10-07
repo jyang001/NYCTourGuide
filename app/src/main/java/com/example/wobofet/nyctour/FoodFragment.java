@@ -1,7 +1,5 @@
 package com.example.wobofet.nyctour;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -19,9 +17,7 @@ public class FoodFragment extends Fragment {
         foods.add(new Attraction(R.string.attraction_natural_history, R.string.natural_history_address, R.string.natural_history_description, R.drawable.museum_natural_history, R.string.natural_history_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, foods);
-
-        //In the View find the ListView
-        ListView mView = (ListView) rootView.findViewById(R.id.food_list);
+        ListView mView = rootView.findViewById(R.id.food_list);
         mView.setAdapter(mFragments);
 
         return rootView;

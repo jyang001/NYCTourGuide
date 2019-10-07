@@ -14,7 +14,7 @@ public class BronxFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_bronx, container, false);
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.bronx_viewpager);
+        ViewPager viewPager = view.findViewById(R.id.bronx_viewpager);
 
         //need the activity not 'this' the fragment
         BronxAdapter bronxAdapter = new BronxAdapter(getActivity(), getChildFragmentManager());
@@ -30,4 +30,5 @@ public class BronxFragment extends Fragment {
 
         return view;
     }
+
 }

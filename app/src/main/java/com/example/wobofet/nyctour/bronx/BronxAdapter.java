@@ -5,6 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+/**
+ * Adapter to display contents of Bronx Attractions
+ */
 public class BronxAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
@@ -14,6 +17,11 @@ public class BronxAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
+    /**
+     * method that returns the correct fragment based on the screen selection
+     * @param position: position on screen
+     * @return Fragment object to display correct Attractions
+     */
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -27,6 +35,10 @@ public class BronxAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /**
+     * method to get the number of Fragments of the Bronx Adapter
+     * @return: number of fragments
+     */
     @Override
     public int getCount() {
         return 4;

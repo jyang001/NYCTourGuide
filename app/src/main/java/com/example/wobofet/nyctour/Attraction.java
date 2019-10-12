@@ -1,28 +1,63 @@
 package com.example.wobofet.nyctour;
 
+/**
+ * represents an Attraction
+ */
 public class Attraction {
+
+    /**
+     * static variable for value of no image
+     */
     private static final int NOIMAGE = -1;
 
+    /**
+     * The name of the Attraction
+     */
     private int name;
+
+    /**
+     * The address of the Attraction
+     */
     private int address;
+
+    /**
+     * Small description of the Attraction
+     */
     private int description;
+
+    /**
+     * resourceID number for the image, currently set to value for no image
+     */
     private int resourceID = NOIMAGE;
+
+    /**
+     * The relative cost of the attraction
+     */
     private int cost;
 
     /**
-     * @param n Name of the Attraction
-     * @param a Address Attraction is located at
-     * @param d Small Description about Attraction
-     * @param r Resource ID of image of Attraction
-     * @param c Cost of entrance if any
+     * default constructor
      */
-    public Attraction(int n, int a, int d, int r, int c) {
-        name = n;
-        address = a;
-        description = d;
-        resourceID = r;
-        cost = c;
+    public Attraction() {
     }
+
+    /**
+     * Constructor for Attraction object
+     * @param name: name of Attraction
+     * @param address: address of Attraction
+     * @param description: small description of Attraction
+     * @param resourceID: resourceID for image
+     * @param cost: relative cost
+     */
+    public Attraction(int name, int address, int description, int resourceID, int cost) {
+        this.name = name;
+        this.address = address;
+        this.description = description;
+        this.resourceID = resourceID;
+        this.cost = cost;
+    }
+
+    //getters and setters
 
     public int getAddress() {
         return address;

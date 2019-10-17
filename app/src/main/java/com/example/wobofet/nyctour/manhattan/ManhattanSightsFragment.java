@@ -26,7 +26,7 @@ public class ManhattanSightsFragment extends Fragment {
         sights.add(new Attraction(R.string.attraction_rockefeller, R.string.rockefeller_address, R.string.rockefeller_description, R.drawable.rockefellercenter, R.string.rockefeller_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, sights);
-        
+
         ListView mView = rootView.findViewById(R.id.manhattan_sights_list);
         mView.setAdapter(mFragments);
 

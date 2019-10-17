@@ -10,15 +10,28 @@ import com.example.wobofet.nyctour.bronx.BronxFoodFragment;
 import com.example.wobofet.nyctour.bronx.BronxParkFragment;
 import com.example.wobofet.nyctour.bronx.BronxSightsFragment;
 
+/**
+ * Adapter to display contents of Manhattan Attractions
+ */
 public class ManhattanAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
 
-    public ManhattanAdapter(Context context, FragmentManager fm) {
-        super(fm);
+    /**
+     * Constructor
+     * @param context: context of the app
+     * @param fragmentManager: appropriate FragmentManager
+     */
+    public ManhattanAdapter(Context context, FragmentManager fragmentManager) {
+        super(fragmentManager);
         mContext = context;
     }
 
+    /**
+     * method that returns the correct fragment based on the screen selection
+     * @param position: position on screen
+     * @return Fragment object to display correct Attractions
+     */
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -32,11 +45,15 @@ public class ManhattanAdapter extends FragmentPagerAdapter {
         }
     }
 
+    /**
+     * method to get the number of Fragments of the Bronx Adapter
+     * @return: number of fragments
+     */
     @Override
     public int getCount() {
         return 4;
     }
-
+    
     public CharSequence getPageTitle(int position) {
         return null;
     }

@@ -12,6 +12,9 @@ import com.example.wobofet.nyctour.R;
 
 import java.util.ArrayList;
 
+/**
+ * class to return the View for Manhattan Park Attractions
+ */
 public class ManhattanParkFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_manhattan_park, container, false);

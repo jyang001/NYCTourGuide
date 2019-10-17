@@ -12,8 +12,11 @@ import com.example.wobofet.nyctour.R;
 
 import java.util.ArrayList;
 
-
+/**
+ * class to return the View for Manhattan Entertainment Attractions
+ */
 public class ManhattanEntertainmentFragment extends Fragment {
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_manhattan_entertainment, container, false);
 
@@ -23,9 +26,10 @@ public class ManhattanEntertainmentFragment extends Fragment {
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, entertainments);
 
         //In the View find the ListView
-        ListView mView = (ListView) rootView.findViewById(R.id.manhattan_entertainment_list);
+        ListView mView = rootView.findViewById(R.id.manhattan_entertainment_list);
         mView.setAdapter(mFragments);
 
         return rootView;
     }
+
 }

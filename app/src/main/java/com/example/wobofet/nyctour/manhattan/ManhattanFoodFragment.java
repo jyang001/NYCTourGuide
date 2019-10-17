@@ -1,7 +1,5 @@
 package com.example.wobofet.nyctour.manhattan;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -15,8 +13,11 @@ import com.example.wobofet.nyctour.R;
 
 import java.util.ArrayList;
 
-
+/**
+ * class to return the View for Manhattan Food Attractions
+ */
 public class ManhattanFoodFragment extends Fragment {
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_manhattan_food, container, false);
 
@@ -26,9 +27,10 @@ public class ManhattanFoodFragment extends Fragment {
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, foods);
 
         //In the View find the ListView
-        ListView mView = (ListView) rootView.findViewById(R.id.manhattan_food_list);
+        ListView mView = rootView.findViewById(R.id.manhattan_food_list);
         mView.setAdapter(mFragments);
 
         return rootView;
     }
+
 }

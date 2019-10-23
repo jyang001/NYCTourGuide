@@ -30,7 +30,7 @@ public class ManhattanAdapter extends FragmentPagerAdapter {
     /**
      * method that returns the correct fragment based on the screen selection
      * @param position: position on screen
-     * @return Fragment object to display correct Attractions
+     * @return: Fragment object to display correct Attractions
      */
     @Override
     public Fragment getItem(int position) {

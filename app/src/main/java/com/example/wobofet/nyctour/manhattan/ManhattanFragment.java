@@ -9,19 +9,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.example.wobofet.nyctour.R;
 
-
+/**
+ * Fragment class for Manhattan Attractions page
+ */
 public class ManhattanFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_manhattan, container, false);
-        ViewPager viewPager = (ViewPager) view.findViewById(R.id.manhattan_viewpager);
+        ViewPager viewPager = view.findViewById(R.id.manhattan_viewpager);
 
         //need the activity not 'this' the fragment
         ManhattanAdapter manhattanAdapter = new ManhattanAdapter(getActivity(), getChildFragmentManager());
         viewPager.setAdapter(manhattanAdapter);
 
-        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.manhattan_tabs);
+        TabLayout tabLayout = view.findViewById(R.id.manhattan_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_sights);

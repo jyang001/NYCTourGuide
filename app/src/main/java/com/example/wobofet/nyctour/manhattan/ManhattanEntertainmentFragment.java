@@ -20,12 +20,11 @@ public class ManhattanEntertainmentFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_manhattan_entertainment, container, false);
 
-        ArrayList<Attraction> entertainments = new ArrayList<Attraction>();
+        ArrayList<Attraction> entertainments = new ArrayList<>();
         entertainments.add(new Attraction(R.string.attraction_natural_history, R.string.natural_history_address, R.string.natural_history_description, R.drawable.museum_natural_history, R.string.natural_history_price));
 
         AttractionAdapter mFragments = new AttractionAdapter(getActivity(), R.color.colorPrimaryDark, entertainments);
 
-        //In the View find the ListView
         ListView mView = rootView.findViewById(R.id.manhattan_entertainment_list);
         mView.setAdapter(mFragments);
 

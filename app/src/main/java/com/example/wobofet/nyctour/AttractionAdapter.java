@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+/**
+ * represents an adapter to hold Attraction classes
+ */
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
     private int colorResourceID;

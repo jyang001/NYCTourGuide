@@ -57,8 +57,6 @@ public class Attraction {
         this.cost = cost;
     }
 
-    //getters and setters
-
     public int getAddress() {
         return address;
     }

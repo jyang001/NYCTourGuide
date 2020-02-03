@@ -6,7 +6,10 @@ An Android App which allows users to view attractions from a variety of categori
 * Emulator or Android device which supports minSdkVersion 19 to run the application
 
 ## Installation
-* Clone the repository with the command ```git clone https://github.com/jyang001/NYCTourGuideApp.git```
+* Clone the repository with the command
+```
+$ git clone https://github.com/jyang001/NYCTourGuideApp.git
+```
 * Or you can download the zip file
 
 ## Demo
@@ -15,4 +18,5 @@ An Android App which allows users to view attractions from a variety of categori
 
 ![p3](https://user-images.githubusercontent.com/31452709/50711443-3d0f3600-103c-11e9-8780-45d0faad0970.png)
 
-
+## Contributing
+You can submit bug reports, feature requests, and pull requests at [the issue tracker](https://github.com/jyang001/NYCTourGuideApp/issues)
